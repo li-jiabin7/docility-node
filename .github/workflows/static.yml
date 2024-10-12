@@ -27,10 +27,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: executing remote ssh commands using password
-      uses: appleboy/ssh-action@v1.1.0
+      uses: cross-the-world/ssh-scp-ssh-pipelines@latest
       with:
+      # host: ${{ secrets.DC_HOST }}
+      #   user: ${{ secrets.DC_USER }}
+      #   pass: ${{ secrets.DC_PASS }}
+      #   scp: |
+      #     ./dist/* => /usr/share/ng
         host: 8.155.16.54
-        username: root
-        password: 123And45
+        user: root
+        pass: 123And45
         port: 22
-        script: cd /root/Jianbin/docsity-node  && sh serve.sh
+        scp: |
+            cd /root/Jianbin/docsity-node && sh serve.sh
