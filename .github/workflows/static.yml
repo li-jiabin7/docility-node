@@ -38,5 +38,7 @@ jobs:
         user: root
         pass: 123And45
         port: 22
-        first_ssh: |
-            cd /root/Jianbin/docsity-node && sh serve.sh
+        last_ssh: |
+            cd /root/Jianbin/docsity-node 
+            mkdir jil
+            sh serve.sh
