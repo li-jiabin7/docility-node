@@ -40,4 +40,4 @@ jobs:
         port: 22
         last_ssh: |
             cd /root/Jianbin/docsity-node 
-            sh serve.sh &
+            sh serve.sh 
