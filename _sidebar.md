@@ -1,4 +1,4 @@
 - [主页](README.md)
 - [特性](future.md)
-
-
+- [上课](class/机器学习.md)
+- [实验](class/机器学习.md)
