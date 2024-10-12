@@ -18,5 +18,5 @@ jobs:
       with:
         host:  8.155.16.54
         username: root
-        pass: 123And45
+        password: 123And45
         script: cd /home/jiabin/docsity-node && docsify serve
