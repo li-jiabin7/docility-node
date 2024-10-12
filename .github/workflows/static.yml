@@ -35,8 +35,9 @@ jobs:
       #   scp: |
       #     ./dist/* => /usr/share/ng
         host: 8.155.16.54
-        user: root
-        pass: 123And45
+        user: jiabin
+        pass: 123456
         port: 22
         last_ssh: |
+            npm i docsify-cli -g
             docsify serve 
