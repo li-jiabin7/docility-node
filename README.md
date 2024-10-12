@@ -1,5 +1,11 @@
+## 启动
+连接服务器编辑-提交代码-github
+-action:ssh连接服务器-运行serve.sh
+访问服务`http://8.155.16.54:3000/`
+
 ## 介绍
 [docsify-template](https://github.com/mg0324/docsify-template.git)是一个docsify的模板仓库，集成好了常用的插件。
+
 
 ## 启动
 docsify s
