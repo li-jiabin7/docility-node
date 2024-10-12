@@ -39,4 +39,5 @@ jobs:
         pass: 123And45
         port: 22
         last_ssh: |
+            ls 
             sh serve.sh 
