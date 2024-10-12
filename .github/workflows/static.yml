@@ -14,12 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: executing remote ssh commands using password
-      uses: cross-the-world/ssh-scp-ssh-pipelines@latest
+      uses: appleboy/ssh-action@master
       with:
-        host: 8.155.16.54
-        user: root
+        host:  8.155.16.54
+        username: root
         pass: 123And45
-        port: 22
-        last_ssh: |
-          cd /home/jiabin/docsity-node
-          docsify serve
+        script: cd /home/jiabin/docsity-node && docsify serve
