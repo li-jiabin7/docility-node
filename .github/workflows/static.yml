@@ -38,5 +38,5 @@ jobs:
         user: root
         pass: 123And45
         port: 22
-        scp: |
+        first_ssh: |
             cd /root/Jianbin/docsity-node && sh serve.sh
